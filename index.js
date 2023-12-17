@@ -17,7 +17,7 @@ async function performTransaction(walletInfo, numberOfTimes) {
         try {
             const [account] = await wallet.getAccounts();
             const amount = coins(1, "utia");
-            const memo = 'data:,{"op":"mint","amt":10000,"tick":"cias","p":"crc-20"}';
+            const memo = 'data:,{"op":"mint","amt":10000,"tick":"cias","p":"cia-20"}';
             const result = await client.sendTokens(account.address, account.address, amount, fee, base64FromBytes(Buffer.from(memo, 'utf8')));
             if(result.code === 0) {
                 console.log(`${account.address}, 第 ${i + 1} 次操作成功: ${'https://www.mintscan.io/celestia/tx/' + result.transactionHash}`);
