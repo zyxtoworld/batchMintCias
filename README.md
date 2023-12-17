@@ -4,9 +4,6 @@
 把你的助记词导入小青蛙钱包（leap wallet），然后导出私钥，然后私钥导入keplr钱包，然后就能在keplr看到你的私钥了
 leap显示的私钥和keplr的不一样
 
-## RPC
-https://docs.celestia.org/nodes/mainnet
-
 ## 安装
 ### 安装 nodejs
 
@@ -20,12 +17,11 @@ npm install -g yarn
 ```
 yarn install
 ```
-修改 .env.example 为 .env
 
 ## 配置环境变量
-在项目根目录中创建 .env 文件，并填写以下信息：
+修改 .env.example 为 .env，并填写以下信息：
+RPC在这文档里找，记得把端口加上: https://docs.celestia.org/nodes/mainnet
 ```
-//可以去 blockpi找
 NODE_URL=
 PRIVATE_KEY=
 ```
