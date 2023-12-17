@@ -8,6 +8,15 @@ leap显示的私钥和keplr的不一样
 https://docs.celestia.org/nodes/mainnet
 
 ## 安装
+### 安装 nodejs
+
+https://nodejs.org/en/download/
+
+### 安装 yarn
+先进入到根目录再执行
+```
+npm install -g yarn
+```
 ```
 yarn install
 ```
