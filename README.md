@@ -20,6 +20,7 @@ yarn install
 
 ## 配置环境变量
 修改 .env.example 为 .env，并填写以下信息：
+
 RPC在这文档里找，记得把端口加上: https://docs.celestia.org/nodes/mainnet
 ```
 NODE_URL=
